@@ -1,0 +1,73 @@
+/* ===== GENERAL STYLES ===== */
+h1 {
+	text-align: center;
+}
+body {
+	max-width: 60em;
+	margin: 50px auto;
+	color: #FFF;
+	background: url("../images/dojo.jpg");
+	background-size: cover;
+}
+
+/* ===== FIELDSET STYLES ===== */
+fieldset {
+	background-color: rgba(0, 0, 0, 0.8);
+	margin: 10px;
+}
+.fields label {
+	display: inline-block;
+	width: 15%;
+	text-align: right;	
+}
+
+/* ===== ERROR MESSAGE STYLES ===== */
+label.error {
+	color: #FF8000;	
+}
+.fields label.error {
+	margin: 5px;
+	display: inline;	
+	font-size: 0.9em;	
+}
+.buttons label.error, .checkbox_error {
+	margin: 0px;
+	
+	font-size: 0.9em;	
+} 
+
+/* ===== CHECKBOX/RADIO BUTTON STYLES ===== */
+.checkbox-grid {
+	display: inline-block;
+	padding: 0;
+	margin: 0 0 15px 0;
+}
+.checkbox-grid li {
+	list-style: none;	
+	margin: 0 9px 6px 0;
+}
+input[type="radio"] {
+	margin: 10px;
+}
+.buttons .row:first-child label {
+	margin: 0 0 0 -10px;
+}
+
+/* ===== SUBMIT/RESET BUTTON STYLES ===== */
+input[type="submit"], input[type="reset"] {
+	margin: 10px;
+}
+
+/* ===== PLACEHOLDER STYLES ===== */
+::-webkit-input-placeholder {
+	font-size: 0.9em;
+}
+::-moz-placeholder {
+	font-size: 0.9em;
+}
+:-ms-input-placeholder {
+	font-size: 0.9em;
+}
+:-moz-placeholder {
+	font-size: 0.9em;
+}
